@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6F05245159412D90031EC64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F05244159412D90031EC64 /* UIKit.framework */; };
+		B6F05247159412D90031EC64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F05246159412D90031EC64 /* Foundation.framework */; };
+		B6F05249159412D90031EC64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F05248159412D90031EC64 /* CoreGraphics.framework */; };
+		B6F0524F159412D90031EC64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6F0524D159412D90031EC64 /* InfoPlist.strings */; };
+		B6F05251159412D90031EC64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F05250159412D90031EC64 /* main.m */; };
+		B6F05255159412D90031EC64 /* SBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F05254159412D90031EC64 /* SBAppDelegate.m */; };
+		B6F0525C159413CA0031EC64 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F0525B159413CA0031EC64 /* MainStoryboard.storyboard */; };
+		B6F0525F1594157F0031EC64 /* SBModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F0525E1594157F0031EC64 /* SBModalViewController.m */; };
+		B6F052621594176A0031EC64 /* SBParamReceiverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F052611594176A0031EC64 /* SBParamReceiverViewController.m */; };
+		B6F05265159418850031EC64 /* SBParamSenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F05264159418850031EC64 /* SBParamSenderViewController.m */; };
+		B6F05268159430970031EC64 /* SBPushFlushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F05267159430970031EC64 /* SBPushFlushSegue.m */; };
+		B6F0526B159442330031EC64 /* SBModalDismissSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F0526A159442330031EC64 /* SBModalDismissSegue.m */; };
+		B6F0526E15944B410031EC64 /* SBDispatcherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F0526D15944B410031EC64 /* SBDispatcherCell.m */; };
+		B6F0527115944C870031EC64 /* SBStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F0527015944C870031EC64 /* SBStaticTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6F05240159412D90031EC64 /* StoryboardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6F05244159412D90031EC64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6F05246159412D90031EC64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6F05248159412D90031EC64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6F0524C159412D90031EC64 /* StoryboardTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryboardTest-Info.plist"; sourceTree = "<group>"; };
+		B6F0524E159412D90031EC64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6F05250159412D90031EC64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6F05252159412D90031EC64 /* StoryboardTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryboardTest-Prefix.pch"; sourceTree = "<group>"; };
+		B6F05253159412D90031EC64 /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
+		B6F05254159412D90031EC64 /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
+		B6F0525B159413CA0031EC64 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B6F0525D1594157F0031EC64 /* SBModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBModalViewController.h; sourceTree = "<group>"; };
+		B6F0525E1594157F0031EC64 /* SBModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBModalViewController.m; sourceTree = "<group>"; };
+		B6F052601594176A0031EC64 /* SBParamReceiverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBParamReceiverViewController.h; sourceTree = "<group>"; };
+		B6F052611594176A0031EC64 /* SBParamReceiverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBParamReceiverViewController.m; sourceTree = "<group>"; };
+		B6F05263159418850031EC64 /* SBParamSenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBParamSenderViewController.h; sourceTree = "<group>"; };
+		B6F05264159418850031EC64 /* SBParamSenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBParamSenderViewController.m; sourceTree = "<group>"; };
+		B6F05266159430970031EC64 /* SBPushFlushSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBPushFlushSegue.h; sourceTree = "<group>"; };
+		B6F05267159430970031EC64 /* SBPushFlushSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBPushFlushSegue.m; sourceTree = "<group>"; };
+		B6F05269159442330031EC64 /* SBModalDismissSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBModalDismissSegue.h; sourceTree = "<group>"; };
+		B6F0526A159442330031EC64 /* SBModalDismissSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBModalDismissSegue.m; sourceTree = "<group>"; };
+		B6F0526C15944B410031EC64 /* SBDispatcherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDispatcherCell.h; sourceTree = "<group>"; };
+		B6F0526D15944B410031EC64 /* SBDispatcherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBDispatcherCell.m; sourceTree = "<group>"; };
+		B6F0526F15944C870031EC64 /* SBStaticTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBStaticTableViewController.h; sourceTree = "<group>"; };
+		B6F0527015944C870031EC64 /* SBStaticTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBStaticTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6F0523D159412D90031EC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F05245159412D90031EC64 /* UIKit.framework in Frameworks */,
+				B6F05247159412D90031EC64 /* Foundation.framework in Frameworks */,
+				B6F05249159412D90031EC64 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6F05235159412D90031EC64 = {
+			isa = PBXGroup;
+			children = (
+				B6F0524A159412D90031EC64 /* StoryboardTest */,
+				B6F05243159412D90031EC64 /* Frameworks */,
+				B6F05241159412D90031EC64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6F05241159412D90031EC64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6F05240159412D90031EC64 /* StoryboardTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6F05243159412D90031EC64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6F05244159412D90031EC64 /* UIKit.framework */,
+				B6F05246159412D90031EC64 /* Foundation.framework */,
+				B6F05248159412D90031EC64 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6F0524A159412D90031EC64 /* StoryboardTest */ = {
+			isa = PBXGroup;
+			children = (
+				B6F0525B159413CA0031EC64 /* MainStoryboard.storyboard */,
+				B6F05253159412D90031EC64 /* SBAppDelegate.h */,
+				B6F05254159412D90031EC64 /* SBAppDelegate.m */,
+				B6F052A9159476E30031EC64 /* Controller */,
+				B6F052AA159476F70031EC64 /* View */,
+				B6F052AB159477050031EC64 /* Segue */,
+				B6F0524B159412D90031EC64 /* Supporting Files */,
+			);
+			path = StoryboardTest;
+			sourceTree = "<group>";
+		};
+		B6F0524B159412D90031EC64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6F0524C159412D90031EC64 /* StoryboardTest-Info.plist */,
+				B6F0524D159412D90031EC64 /* InfoPlist.strings */,
+				B6F05250159412D90031EC64 /* main.m */,
+				B6F05252159412D90031EC64 /* StoryboardTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6F052A9159476E30031EC64 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B6F0525D1594157F0031EC64 /* SBModalViewController.h */,
+				B6F0525E1594157F0031EC64 /* SBModalViewController.m */,
+				B6F05263159418850031EC64 /* SBParamSenderViewController.h */,
+				B6F05264159418850031EC64 /* SBParamSenderViewController.m */,
+				B6F052601594176A0031EC64 /* SBParamReceiverViewController.h */,
+				B6F052611594176A0031EC64 /* SBParamReceiverViewController.m */,
+				B6F0526F15944C870031EC64 /* SBStaticTableViewController.h */,
+				B6F0527015944C870031EC64 /* SBStaticTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B6F052AA159476F70031EC64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6F0526C15944B410031EC64 /* SBDispatcherCell.h */,
+				B6F0526D15944B410031EC64 /* SBDispatcherCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B6F052AB159477050031EC64 /* Segue */ = {
+			isa = PBXGroup;
+			children = (
+				B6F05266159430970031EC64 /* SBPushFlushSegue.h */,
+				B6F05267159430970031EC64 /* SBPushFlushSegue.m */,
+				B6F05269159442330031EC64 /* SBModalDismissSegue.h */,
+				B6F0526A159442330031EC64 /* SBModalDismissSegue.m */,
+			);
+			name = Segue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6F0523F159412D90031EC64 /* StoryboardTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6F05258159412D90031EC64 /* Build configuration list for PBXNativeTarget "StoryboardTest" */;
+			buildPhases = (
+				B6F0523C159412D90031EC64 /* Sources */,
+				B6F0523D159412D90031EC64 /* Frameworks */,
+				B6F0523E159412D90031EC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoryboardTest;
+			productName = StoryboardTest;
+			productReference = B6F05240159412D90031EC64 /* StoryboardTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6F05237159412D90031EC64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SB;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = hmori.jp;
+			};
+			buildConfigurationList = B6F0523A159412D90031EC64 /* Build configuration list for PBXProject "StoryboardTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6F05235159412D90031EC64;
+			productRefGroup = B6F05241159412D90031EC64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6F0523F159412D90031EC64 /* StoryboardTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6F0523E159412D90031EC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F0524F159412D90031EC64 /* InfoPlist.strings in Resources */,
+				B6F0525C159413CA0031EC64 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6F0523C159412D90031EC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F05251159412D90031EC64 /* main.m in Sources */,
+				B6F05255159412D90031EC64 /* SBAppDelegate.m in Sources */,
+				B6F0525F1594157F0031EC64 /* SBModalViewController.m in Sources */,
+				B6F052621594176A0031EC64 /* SBParamReceiverViewController.m in Sources */,
+				B6F05265159418850031EC64 /* SBParamSenderViewController.m in Sources */,
+				B6F05268159430970031EC64 /* SBPushFlushSegue.m in Sources */,
+				B6F0526B159442330031EC64 /* SBModalDismissSegue.m in Sources */,
+				B6F0526E15944B410031EC64 /* SBDispatcherCell.m in Sources */,
+				B6F0527115944C870031EC64 /* SBStaticTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6F0524D159412D90031EC64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6F0524E159412D90031EC64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6F05256159412D90031EC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6F05257159412D90031EC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6F05259159412D90031EC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryboardTest/StoryboardTest-Prefix.pch";
+				INFOPLIST_FILE = "StoryboardTest/StoryboardTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6F0525A159412D90031EC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryboardTest/StoryboardTest-Prefix.pch";
+				INFOPLIST_FILE = "StoryboardTest/StoryboardTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6F0523A159412D90031EC64 /* Build configuration list for PBXProject "StoryboardTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6F05256159412D90031EC64 /* Debug */,
+				B6F05257159412D90031EC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6F05258159412D90031EC64 /* Build configuration list for PBXNativeTarget "StoryboardTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6F05259159412D90031EC64 /* Debug */,
+				B6F0525A159412D90031EC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6F05237159412D90031EC64 /* Project object */;
+}
